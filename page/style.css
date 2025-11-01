@@ -1,0 +1,66 @@
+*{
+    border:border-box;
+}
+body{
+    margin: 0px;
+}
+.navbar{
+    height: 50px;
+    background-color: rgb(187, 208, 166);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+.login-button{
+    margin-right: 5px;
+    padding: 5px;
+}
+.hero{
+    height: 590px;
+    background-color: rgb(212, 252, 210);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form{
+    height: 400px;
+    width:400px;
+    background-color: white;
+    border-right: 2px solid rgb(166, 198, 164);
+    border-bottom: 2px solid rgb(166, 198, 164);
+    text-align: center;
+    font-size: larger;
+}
+.input{
+    padding: 10px;
+    width: 350px;
+}
+.main-button{
+    padding: 8px;
+    margin-top: 15px;
+    width: 375px;
+    background-color: rgb(78, 114, 81);
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+.main-button:hover{
+    background-color:rgb(63, 93, 65) ;
+}
+.msg{
+    text-align: center;
+    margin-top: 75px;
+}
