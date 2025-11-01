@@ -21,9 +21,13 @@ URL validation and error handling for better reliability.
 ✨ Key Features
 
 ✅ Shorten any valid URL in seconds.
+
 ✅ Instant redirection to the original URL.
+
 ✅ Unique, auto-generated short IDs using NanoID.
+
 ✅ Simple and clean user interface.
+
 ✅ Backend connected to MongoDB Atlas for data persistence.
 
 🧠 How It Works
@@ -46,38 +50,68 @@ When that short link is visited, the app instantly redirects to the original URL
 🧩 Tech Stack
 
 Frontend: HTML5, CSS3
+
 Backend: Node.js, Express.js
+
 Database: MongoDB with Mongoose
+
 Utilities: NanoID, dotenv
 
 📁 Folder Structure
+
 project/
+
 │
+
 ├── config/
+
 │   └── db.js              → Database connection logic
+
 │
+
 ├── controllers/
+
 │   └── url.js             → Core logic for creating & redirecting URLs
+
 │
+
 ├── models/
+
 │   └── url.js             → Mongoose schema for URLs
+
 │
+
 ├── routes/
+
 │   └── url.js             → API routes
+
 │
+
 ├── service/
+
 │   └── urlValidation.js   → URL validation function
+
 │
+
 ├── public/
+
 │   ├── index.html         → Frontend user interface
+
 │   ├── style.css          → UI styling
+
 │   └── logo.png           → App logo (optional)
+
 │
+
 ├── index.js               → Main Express app entry point
+
 └── .env                   → Environment variables
 
+
 ⚙️ Setup Guide
+
 Step 1: Clone the repository
+
 git clone https://github.com/Mohammed-habeeb78/miniurl-shortener.git
 
 Step 2: Navigate into the folder
@@ -144,4 +178,4 @@ QR code generation for each short URL
 
 🧑‍💻 Author
 
-Mohammed Habeeb Rehman
+Mohammed Habeeb Ur Rehman
